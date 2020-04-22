@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Project Template</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+  .row.display-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .thumbnail {
+    height: 100%;
+  }
+</style>
+<body>
+
+<!-- Navigation Bar -->
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">MyWebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Page 3</a></li>
+      <li><a href="sign_in.html">Sign in</a></li>
+      <li><a href="#">Sign out</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- JumboTron webpage header -->
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1>Bootstrap Template</h1>
+    <p>This is an example of Boostrap Template created from scratch.</p>
+  </div>
+</div>
+
+<!-- Optionnal text description -->
+
+<div class="container">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+    culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+
+<!-- Image Gallery -->
+
+<div class="container">
+  <h2>Image Gallery</h2>
+  <p>
+    This is an example of an image gallery with bootstrap.
+    Source of the image is
+    <a
+     href="https://www.aliexpress.com/i/32798306412.html">
+     here.
+   </a>
+   Note that on small devices, the pictures remain on a 2x2 grid whereas on larger devices,
+    the pictures are arranged in a 1x4 grid.
+   </p>
+
+  <div class="row">
+
+    <div class="col-lg-3 col-md-6 col-sm-6">
+      <div class="thumbnail">
+        <img src="./pictures/laval_sunset.jpg" alt="Winter" style="width:100%">
+        <div class="caption">
+          <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-sm-6">
+      <div class="thumbnail">
+        <img src="./pictures/laval_sunset.jpg" alt="Everest" style="width:100%">
+        <div class="caption">
+          <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-sm-6">
+      <div class="thumbnail">
+        <img src="./pictures/laval_sunset.jpg" alt="Japan" style="width:100%">
+        <div class="caption">
+          <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-sm-6">
+      <div class="thumbnail">
+        <img src="./pictures/laval_sunset.jpg" alt="lava_sunset" style="width:100%">
+        <div class="caption">
+          <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
